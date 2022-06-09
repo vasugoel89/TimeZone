@@ -9,10 +9,18 @@ let a;
         document.getElementById('time').innerHTML = time + "<br>on " + date;
     }, 1000);
 
-    //United States
+    // United States
     // var getUSTime = function(){
     //   document.getElementById("londonTime").innerHTML = new Date().toLocaleString("en-US",{timeZone:'Europe/London'});
 
     // }
     // getUSTime();
     // setInterval(getUSTime,1000);
+  
+    function myFunction() {
+         document.getElementById("time").innerHTML = "YOU CLICKED ME!";
+      }
+      
+    function myFunction2() {
+        document.getElementById("time").innerHTML =  "YOU CLICKED ME NOT!";
+      }
